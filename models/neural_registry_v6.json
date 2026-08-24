@@ -1,0 +1,62 @@
+{
+  "created_by": "07b_redes_neurais_temporais.ipynb",
+  "horizon_min": 120,
+  "lookback_steps": 36,
+  "lookback_hours": 6.0,
+  "input_dim": 72,
+  "channel_groups": {
+    "stage": [
+      "stage_413",
+      "stage_1000490",
+      "stage_143",
+      "stage_283"
+    ],
+    "rain": [
+      "rain_143",
+      "rain_275",
+      "rain_279",
+      "rain_280",
+      "rain_283",
+      "rain_413",
+      "rain_511",
+      "rain_563",
+      "rain_629",
+      "rain_1000350",
+      "rain_1000370",
+      "rain_1000390",
+      "rain_1000400",
+      "rain_1000410",
+      "rain_1000420",
+      "rain_1000430",
+      "rain_1000490",
+      "rain_1000500",
+      "rain_1000510",
+      "rain_1000550",
+      "rain_1000837",
+      "rain_1000839",
+      "rain_1000867"
+    ],
+    "radar": [
+      "radar_mean",
+      "radar_max",
+      "radar_p75",
+      "radar_p90",
+      "radar_p95",
+      "radar_wet_fraction",
+      "radar_cells_available"
+    ],
+    "time": [
+      "time_sin_day",
+      "time_cos_day",
+      "time_sin_year",
+      "time_cos_year"
+    ]
+  },
+  "models_trained": [
+    "TCN",
+    "GRU"
+  ],
+  "preprocessor": "models/temporal_preprocessor_v6.json",
+  "test_period": "2024 development test",
+  "blind_2025_opened": false
+}

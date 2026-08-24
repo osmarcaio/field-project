@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.zip binary
+*.parquet binary
+*.pkl binary
+*.joblib binary
+*.pt binary
+*.pth binary

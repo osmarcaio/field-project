@@ -1,0 +1,6 @@
+{
+  "event_threshold_m": 1.0,
+  "base_probability_threshold": 0.5784108638763428,
+  "radar_probability_threshold": 0.5985638499259949,
+  "selection_metric": "F2 on validation_2023"
+}

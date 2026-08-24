@@ -1,0 +1,14 @@
+{
+  "horizon_min": 120,
+  "selection_period": "2024 development test",
+  "point_model": "XGBoost + radar",
+  "point_selection_metric": "lowest RMSE_cm on 2024",
+  "point_rmse_cm_2024": 20.299667358398438,
+  "alert_model": "classificador_com_radar",
+  "alert_event_definition_m": 1.0,
+  "alert_probability_threshold": 0.5985638499259949,
+  "alert_selection_metric": "highest F2 on 2024; probability threshold chosen on 2023",
+  "alert_recall_pct_2024": 68.07511737089203,
+  "alert_precision_pct_2024": 43.89505549949546,
+  "warning": "Do not inspect 2025 before freezing notebook 08 to this architecture."
+}

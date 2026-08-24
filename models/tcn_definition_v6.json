@@ -1,0 +1,12 @@
+{
+  "model_kind": "TCN",
+  "input_dim": 72,
+  "channels": [
+    64,
+    64,
+    96,
+    96
+  ],
+  "kernel_size": 3,
+  "dropout": 0.15
+}
