@@ -1,51 +1,24 @@
-# ============================================================
-# Ambiente virtual Python
-# ============================================================
-
 .venv/
 venv/
-env/
-
-# Python
 __pycache__/
 *.py[cod]
-*.pyo
-
-# Jupyter
 .ipynb_checkpoints/
-
-
-# ============================================================
-# Dados
-# ============================================================
 
 data/raw/*
 data/interim/*
 data/processed/*
-
-# Permite manter a estrutura de pastas
 !data/raw/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
-
-# Arquivos pesados de dados
 *.parquet
 *.feather
 *.h5
 *.hdf5
 
-
-# ============================================================
-# Modelos treinados
-# ============================================================
-
 models/*
-
-# Permite manter configuracoes/metadados pequenos
 !models/.gitkeep
 !models/*.json
 !models/*.md
-
 *.pkl
 *.pickle
 *.joblib
@@ -53,21 +26,9 @@ models/*
 *.pth
 *.ckpt
 
-
-# ============================================================
-# Outputs
-# ============================================================
-
 outputs/*
-
-# Permite publicar apenas uma pasta de resultados finais
 !outputs/final/
 !outputs/final/**
-
-
-# ============================================================
-# Arquivos temporarios do LaTeX
-# ============================================================
 
 *.aux
 *.log
@@ -76,23 +37,8 @@ outputs/*
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-
-
-# ============================================================
-# Sistema operacional / VS Code
-# ============================================================
-
 .DS_Store
 Thumbs.db
-
-.vscode/*
-!.vscode/settings.json
-
-
-# ============================================================
-# Temporarios
-# ============================================================
-
 *.tmp
 *.temp
 ~$*
