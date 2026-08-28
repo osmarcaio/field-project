@@ -1,7 +1,0 @@
-{
-  "model_kind": "GRU",
-  "input_dim": 72,
-  "hidden_dim": 96,
-  "num_layers": 2,
-  "dropout": 0.15
-}

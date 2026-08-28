@@ -1,8 +1,0 @@
-{
-  "regression_best_by_rmse_2024": "com_radar",
-  "regression_rmse_cm_2024": 20.299667358398438,
-  "classifier_best_by_F2_2024": "classificador_com_radar",
-  "classifier_recall_pct_2024": 68.07511737089203,
-  "classifier_precision_pct_2024": 43.89505549949546,
-  "note": "2024 e development test; 2025 ainda nao foi aberto."
-}
